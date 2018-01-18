@@ -1,5 +1,5 @@
 //
-//  SKBaseAlertVipLimits.h
+//  SKAlertVipLimits.h
 //  SKAlertVipLimits
 //
 //  Created by Sekorm on 2018/1/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SKBaseAlertVipLimits : UIView
+@interface SKAlertVipLimits : UIView
 
 @property (nonatomic,copy) NSString *title; //标题
 

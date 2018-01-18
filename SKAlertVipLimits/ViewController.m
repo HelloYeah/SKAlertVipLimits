@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SKBaseAlertVipLimits.h"
+#import "SKAlertVipLimits.h"
 
 @interface ViewController ()<UITableViewDelegate>
 
@@ -27,7 +27,7 @@
     switch (indexPath.row) {
         case 0:{
             
-            SKBaseAlertVipLimits *hud = [SKBaseAlertVipLimits showHUDAddedTo:self.navigationController.view];
+            SKAlertVipLimits *hud = [SKAlertVipLimits showHUDAddedTo:self.navigationController.view];
             hud.title = @"VIP专属资料特权";
             hud.privileges = @[@"畅享无限级下载资料",
                                @"免费下载数百家原厂秘密级资料 ",
@@ -40,7 +40,7 @@
             
         case 1:{
             
-            SKBaseAlertVipLimits *hud = [SKBaseAlertVipLimits showHUDAddedTo:self.navigationController.view];
+            SKAlertVipLimits *hud = [SKAlertVipLimits showHUDAddedTo:self.navigationController.view];
             hud.title = @"VIP专属资料特权";
             hud.privileges = @[@"畅享无限级下载资料",
                                @"免费下载数百家原厂秘密级资料 ",
@@ -54,7 +54,7 @@
             
         case 2:{
             
-            SKBaseAlertVipLimits *hud = [SKBaseAlertVipLimits showHUDAddedTo:self.navigationController.view];
+            SKAlertVipLimits *hud = [SKAlertVipLimits showHUDAddedTo:self.navigationController.view];
             hud.title = @"VIP专属活动福利";
             hud.privileges = @[@"每年百场电商活动、百场高端沙龙、研讨会仅为VIP留席",
                                @"每年VIP狂欢派对",
@@ -69,7 +69,7 @@
             
         case 3:{
             
-            SKBaseAlertVipLimits *hud = [SKBaseAlertVipLimits showHUDAddedTo:self.navigationController.view];
+            SKAlertVipLimits *hud = [SKAlertVipLimits showHUDAddedTo:self.navigationController.view];
             hud.title = @"VIP专属活动福利";
             hud.privileges = @[@"每年百场电商活动、百场高端沙龙、研讨会仅为VIP留席",
                                @"每年VIP狂欢派对",
@@ -82,7 +82,7 @@
             
         case 4:{
             
-            SKBaseAlertVipLimits *hud = [SKBaseAlertVipLimits showHUDAddedTo:self.navigationController.view];
+            SKAlertVipLimits *hud = [SKAlertVipLimits showHUDAddedTo:self.navigationController.view];
             hud.title = @"VIP专属提问/回答特权";
             hud.privileges = @[@"百人技术专家团队24H在线答疑",
                                @"与百万工程师交流经验",
@@ -94,7 +94,7 @@
             
         case 5:{
             
-            SKBaseAlertVipLimits *hud = [SKBaseAlertVipLimits showHUDAddedTo:self.navigationController.view];
+            SKAlertVipLimits *hud = [SKAlertVipLimits showHUDAddedTo:self.navigationController.view];
             hud.title = @"VIP专属提问/回答特权";
             hud.privileges = @[@"百人技术专家团队24H在线答疑",
                                @"与百万工程师交流经验",

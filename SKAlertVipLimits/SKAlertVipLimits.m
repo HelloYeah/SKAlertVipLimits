@@ -6,7 +6,7 @@
 //  Copyright © 2018年 Sekorm. All rights reserved.
 //
 
-#import "SKBaseAlertVipLimits.h"
+#import "SKAlertVipLimits.h"
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -14,7 +14,7 @@
 #define kIconWH 43
 
 
-@interface SKBaseAlertVipLimits()
+@interface SKAlertVipLimits()
 
 @property (nonatomic,strong) UIView *contentView; //容器
 @property (nonatomic,strong) UIImageView *iconView; //vip专属图标
@@ -26,11 +26,11 @@
 @property (nonatomic,assign) CGFloat contentH; //申请Vip按钮
 @end
 
-@implementation SKBaseAlertVipLimits
+@implementation SKAlertVipLimits
 
 + (instancetype)showHUDAddedTo:(UIView *)view {
     
-    SKBaseAlertVipLimits *hud = [[self alloc] init];
+    SKAlertVipLimits *hud = [[self alloc] init];
     [view addSubview:hud];
     hud.alpha = 0;
     [hud showAnimated:YES];

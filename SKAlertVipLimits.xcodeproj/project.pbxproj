@@ -15,7 +15,7 @@
 		B4FB744F200DE98F00535C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB744E200DE98F00535C16 /* main.m */; };
 		B4FB7459200DE98F00535C16 /* SKAlertVipLimitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB7458200DE98F00535C16 /* SKAlertVipLimitsTests.m */; };
 		B4FB7464200DE98F00535C16 /* SKAlertVipLimitsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB7463200DE98F00535C16 /* SKAlertVipLimitsUITests.m */; };
-		B4FB7473200DECA900535C16 /* SKBaseAlertVipLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB7472200DECA900535C16 /* SKBaseAlertVipLimits.m */; };
+		B4FB7473200DECA900535C16 /* SKAlertVipLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB7472200DECA900535C16 /* SKAlertVipLimits.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		B4FB745F200DE98F00535C16 /* SKAlertVipLimitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKAlertVipLimitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FB7463200DE98F00535C16 /* SKAlertVipLimitsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAlertVipLimitsUITests.m; sourceTree = "<group>"; };
 		B4FB7465200DE98F00535C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4FB7471200DECA900535C16 /* SKBaseAlertVipLimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBaseAlertVipLimits.h; sourceTree = "<group>"; };
-		B4FB7472200DECA900535C16 /* SKBaseAlertVipLimits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBaseAlertVipLimits.m; sourceTree = "<group>"; };
+		B4FB7471200DECA900535C16 /* SKAlertVipLimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAlertVipLimits.h; sourceTree = "<group>"; };
+		B4FB7472200DECA900535C16 /* SKAlertVipLimits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAlertVipLimits.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 			children = (
 				B4FB743F200DE98F00535C16 /* AppDelegate.h */,
 				B4FB7440200DE98F00535C16 /* AppDelegate.m */,
-				B4FB7471200DECA900535C16 /* SKBaseAlertVipLimits.h */,
-				B4FB7472200DECA900535C16 /* SKBaseAlertVipLimits.m */,
+				B4FB7471200DECA900535C16 /* SKAlertVipLimits.h */,
+				B4FB7472200DECA900535C16 /* SKAlertVipLimits.m */,
 				B4FB7442200DE98F00535C16 /* ViewController.h */,
 				B4FB7443200DE98F00535C16 /* ViewController.m */,
 				B4FB7445200DE98F00535C16 /* Main.storyboard */,
@@ -273,7 +273,7 @@
 				B4FB7444200DE98F00535C16 /* ViewController.m in Sources */,
 				B4FB744F200DE98F00535C16 /* main.m in Sources */,
 				B4FB7441200DE98F00535C16 /* AppDelegate.m in Sources */,
-				B4FB7473200DECA900535C16 /* SKBaseAlertVipLimits.m in Sources */,
+				B4FB7473200DECA900535C16 /* SKAlertVipLimits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
